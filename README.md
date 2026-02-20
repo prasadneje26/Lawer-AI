@@ -1,4 +1,4 @@
 # Lawer-AI
-This is My Repository.
+This is my Project.
 <br>
 Author-(Prasad Neje)
