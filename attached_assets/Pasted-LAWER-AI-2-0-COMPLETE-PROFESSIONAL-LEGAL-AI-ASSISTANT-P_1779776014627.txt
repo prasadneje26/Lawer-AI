@@ -1,0 +1,424 @@
+LAWER-AI 2.0 – COMPLETE PROFESSIONAL LEGAL AI ASSISTANT
+Project Objective
+
+Build a production-ready AI-powered Legal Assistant platform named Lawer-AI that assists lawyers, legal researchers, law firms, and law students in legal research, document analysis, case retrieval, legal drafting, and intelligent decision support.
+
+The system must be reliable, scalable, secure, responsive, and visually professional. The final product should look like software actually used inside a law firm, court office, or legal consultancy.
+
+Core Vision
+
+The platform should provide:
+
+AI-Powered Legal Research
+Similar Case Retrieval (RAG)
+Legal Section Identification
+Judgment Summarization
+Legal Document Drafting
+Case Outcome Prediction
+Lawyer Dashboard
+Admin Dashboard
+User Management
+Analytics & Reports
+Secure Authentication
+Modern Professional Legal UI
+Technology Stack
+Frontend
+Next.js 15+
+TypeScript
+Tailwind CSS
+Shadcn UI
+Framer Motion
+React Query
+Zustand
+Recharts
+React Hook Form
+Zod Validation
+Backend
+FastAPI
+Python
+SQLAlchemy
+PostgreSQL
+Alembic
+Pydantic
+LangChain
+FAISS
+OpenAI GPT Models
+Sentence Transformers
+JWT Authentication
+AI & ML
+RAG System
+
+Use:
+
+LangChain
+FAISS
+OpenAI Embeddings
+Sentence Transformers
+
+Features:
+
+Similar case retrieval
+Legal question answering
+Context-based responses
+Source citations
+Confidence score
+Document Intelligence
+
+Support:
+
+PDF
+DOCX
+TXT
+
+Extract:
+
+Facts
+Arguments
+Verdict
+Important Dates
+Parties Involved
+Relevant Sections
+
+Generate structured summaries automatically.
+
+Legal Draft Generator
+
+Generate:
+
+FIR Draft
+Bail Application
+Legal Notice
+Affidavit
+Agreement
+Contract
+Petition
+Complaint Letter
+RTI Application
+Court Application
+
+Features:
+
+Editable output
+Download PDF
+Download DOCX
+Regenerate sections
+Case Outcome Prediction
+
+Improve current heuristic system.
+
+Implement:
+
+Feature Engineering
+Historical Case Data
+Classification Model
+
+Models:
+
+Logistic Regression
+Random Forest
+XGBoost
+
+Show:
+
+Win Probability
+Lose Probability
+Confidence Score
+Explanation
+
+Display through visual charts.
+
+Database Design
+
+Create professional schema.
+
+Users
+id
+name
+email
+password_hash
+role
+created_at
+Lawyers
+lawyer_id
+specialization
+experience
+organization
+Cases
+case_id
+title
+description
+sections
+judgment
+outcome
+Predictions
+prediction_id
+case_id
+probability
+explanation
+timestamp
+Documents
+document_id
+user_id
+type
+generated_text
+created_at
+Audit Logs
+
+Track:
+
+login
+document generation
+searches
+predictions
+Authentication System
+
+Implement:
+
+User Login
+JWT Authentication
+Refresh Token
+Admin Login
+
+Admin should access:
+
+User Management
+Analytics
+Dataset Upload
+Case Management
+Logs
+AI Monitoring
+Security
+
+Implement:
+
+Password Hashing
+Rate Limiting
+CORS Protection
+SQL Injection Protection
+XSS Protection
+Input Validation
+Dashboard Features
+Lawyer Dashboard
+
+Show:
+
+Total Cases Searched
+Documents Generated
+Predictions Made
+Recent Activity
+Saved Cases
+Admin Dashboard
+
+Show:
+
+Total Users
+Active Users
+Searches Today
+Documents Generated
+AI Usage Statistics
+Dataset Status
+Advanced RAG System
+
+Current RAG should be upgraded.
+
+Implement:
+
+Hybrid Search
+
+Combine:
+
+Semantic Search
+Keyword Search
+Metadata Filtering
+
+Filter by:
+
+Case Type
+Court
+Section
+Year
+Ranking
+
+Use:
+
+Similarity Score
+Relevance Score
+
+Display top 10 cases.
+
+Citation Support
+
+Every AI response must show:
+
+Case Name
+Similarity Score
+Legal References
+Professional Legal UI/UX
+
+The current UI must be completely redesigned.
+
+The design should look like premium legal software.
+
+Examples of inspiration:
+
+Westlaw
+LexisNexis
+Clio
+Harvey AI
+Theme
+
+Professional Law Theme
+
+Colors:
+
+Primary:
+
+Deep Navy Blue (#0B1F3A)
+
+Secondary:
+
+Charcoal Black (#121212)
+
+Accent:
+
+Gold (#D4AF37)
+
+Background:
+
+Rich Dark Gray
+
+Cards:
+
+Glassmorphism with subtle shadows
+Design Language
+
+Use:
+
+Premium typography
+Smooth animations
+Professional icons
+Legal-themed visuals
+
+Avoid:
+
+Emojis
+Cartoon graphics
+AI-generated looking design
+Bright random colors
+Layout
+Sidebar
+Dashboard
+Case Search
+Law Sections
+Judgment Analysis
+Document Generator
+Predictions
+Reports
+Settings
+Top Navbar
+Search Bar
+Notifications
+Profile Menu
+Theme Toggle
+Analytics Module
+
+Add:
+
+Charts
+Search Trends
+Generated Documents
+Prediction Accuracy
+User Activity
+
+Using:
+
+Recharts
+File Management
+
+Users can:
+
+Upload PDFs
+Upload DOCX
+Download Reports
+Export Results
+
+Formats:
+
+PDF
+DOCX
+CSV
+Logging & Monitoring
+
+Implement:
+
+Structured Logging
+Error Tracking
+Request Monitoring
+AI Response Monitoring
+API Requirements
+
+Create Swagger Documentation.
+
+Every endpoint should have:
+
+Validation
+Error Handling
+Proper Response Models
+Performance Optimization
+
+Implement:
+
+Lazy Loading
+Pagination
+Caching
+Query Optimization
+Async APIs
+Testing
+
+Implement:
+
+Backend
+Pytest
+API Testing
+Frontend
+Jest
+React Testing Library
+Deployment
+
+Provide deployment-ready setup.
+
+Backend
+
+Docker Container
+
+Deploy on:
+
+AWS
+Render
+Railway
+Frontend
+
+Deploy on:
+
+Vercel
+Database
+PostgreSQL Production Setup
+Deliverables
+Fully Working Full Stack Application
+Professional Law Firm Grade UI
+Advanced RAG Pipeline
+Document Intelligence Module
+Legal Draft Generator
+ML-Based Outcome Prediction
+Admin Dashboard
+User Dashboard
+Secure Authentication
+Dockerized Deployment
+Complete Documentation
+Production-Ready Codebase
+Clean Folder Structure
+Proper Error Handling
+High Accuracy AI Responses
+Responsive Design for Desktop, Tablet, and Mobile
+
+Build the project as a professional legal-tech SaaS product rather than a college project. The final system should be suitable for portfolio, internships, hackathons, placements, and demonstration to law firms.

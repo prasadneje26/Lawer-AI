@@ -1,0 +1,2 @@
+- [Lawer-AI stack](lawer-ai-stack.md) — Full-stack legal AI platform: React+Vite frontend (port 5000) + FastAPI backend (port 8000); PostgreSQL via DATABASE_URL env var
+- [Auth setup](lawer-ai-auth.md) — Use `bcrypt` directly (not passlib) for password hashing; passlib+bcrypt 5.x is incompatible in this environment
